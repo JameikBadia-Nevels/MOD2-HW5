@@ -11,13 +11,13 @@ class Index extends React.Component{
             <div>
             <h1 style = {myStyle}>See All The Pokemon!</h1>
             <ul>
-                {pokemon.map((pokemon,i) =>{
+                {pokemon.map((pokemon,x) =>{
                     return(
                         <li>
                             Summoning {' '}
-                            <a href = {`/pokemon/${i}`}>
+                            <a href = {`/pokemon/${x}`}>
                                 {pokemon.name}
-                                {pokemon[i]}
+                                {pokemon[x]}
                             </a>
                         </li>
                     )
