@@ -20,7 +20,8 @@ app.get('/pokemon', (req,res) => {
 })
 
 app.get('/pokemon/:id', (req,res) =>{
-    res.send(pokemon[req.params.id])
+    res.render('Show', {
+        pokemon: pokemon[req.params.id]})
 })
 app.listen(port, () =>{
     console.log("Meh hear erryting ya say in port", port)
