@@ -5,7 +5,7 @@ const app = express()
 
 const port = 3000
 
-const pokemon = require('./models/pokemon') 
+const pokemon = require('./models/pokemon.js') 
 
 //set up view engine
 app.set('view engine', 'jsx')
