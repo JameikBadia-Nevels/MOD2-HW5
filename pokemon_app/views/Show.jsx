@@ -10,7 +10,7 @@ class Index extends React.Component{
         return (
             <div>
             <h1 style = {myStyle}>Gotta Catch Em ALLLLLLL!</h1>
-            <h2> {pokemon.name} I Choose You</h2>
+            <h2> {pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)} I Choose You</h2>
             <br></br>
             <div>
                 <img src = {pokemon.img + '.jpg'}/> 

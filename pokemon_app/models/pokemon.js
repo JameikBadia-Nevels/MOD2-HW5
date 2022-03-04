@@ -7,15 +7,4 @@ const pokemon = [
     {name: "squirtle", img: "http://img.pokemondb.net/artwork/squirtle"},
     {name: "wartortle", img: "http://img.pokemondb.net/artwork/wartortle"}
  ];
-// const cap = (pokemonNames) => {
-//     pokeArr = []
-//     for (let index = 0; index <= pokemonNames.length; index++) {
-//         const pokeName = pokemonNames.name[index];
-//         const pokeCap = pokeName.toUpperCase()
-//         pokeArr.push(pokeCap)
-//         return pokeArr
-//     }
-// }
-// cap(pokemon)
-
  module.exports = pokemon
